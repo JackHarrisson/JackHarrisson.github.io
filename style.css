@@ -1,0 +1,499 @@
+body{
+    font-family: "TradeGothic", sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.navbar-brand img {
+    padding-top: 15px; 
+    padding-left: 15px; 
+}
+
+
+
+.navbar-custom{
+    justify-content: center;
+    border-bottom: 2px solid #8C020C;
+    background-color: white;
+}
+
+.nav-link {
+    
+    margin-left: 20px;
+}
+
+/* Animated underline for navigation */
+.nav-link:hover{
+    color: #8C020C;
+}
+
+a.nav-link{
+    position: relative;
+}
+a.nav-link::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #8C020C;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+a.nav-link:hover::before{
+    visibility: visible;
+    width: 100%;
+}
+
+/* Divider Section */
+.divider{
+    width: 100%;
+    padding: 60px 15px;
+}
+
+.statement-banner {
+    padding: 40px 20px;
+    background-color: #f0f0f0; /* Light background for contrast */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 40px 0;
+}
+
+.statement-banner p {
+    font-size: 1.5rem; /* Larger font size for emphasis */
+    color: #333;
+    font-style: italic;
+    font-weight: 300; /* Lighter font weight for elegance */
+}
+
+.about-us{    width: 100%;
+    padding: 90px 15px;
+}
+
+.about-us-box{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-us-box .text-container{
+    max-width: 70%;
+    margin: auto;
+}
+
+.btn{
+    color: #E4E4E4;
+    background: #8C020C;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    color: #E4E4E4;
+    background: #8C020C;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-content {
+    background-color: #f8f9fa; /* Light background color */
+    color: #333; /* Text color */
+    padding: 80px; /* Padding inside each carousel item */
+    text-align: center; /* Center aligning the text */
+    height: 300px; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-content .text-box {
+    max-width: 600px; /* Adjust the width as needed */
+    margin: auto; /* This centers the box in the carousel item */
+    padding: 20px; /* Adds some padding inside the box */
+    border-radius: 10px; /* Optional: for rounded corners */
+}
+
+.icon-container{
+    background-color: #8C020C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 15%;
+    margin: auto;
+}
+
+.icon-container img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.footer {
+    color: white;
+    background-color: #343a40; /* Dark background for footer */
+}
+
+.footer-links{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links:hover{
+    color: white;
+}
+
+a.footer-links{
+    position: relative;
+}
+a.footer-links::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+a.footer-links:hover::before{
+    visibility: visible;
+    width: 100%;
+}
+
+.footer h5 {
+    margin-bottom: 15px; /* Spacing under headings */
+}
+
+.image-section{
+    height: auto;
+}
+
+.portrait{
+    padding: 10px;
+    max-width: 300px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.lawyer-profile{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lawyer-info{
+    transition: opacity 0.3s ease-in-out;
+    max-width: 300px;
+}
+
+
+.lawyer-info h3, .lawyer-info p{
+    margin: 5px 0;
+}
+
+.contact-info{
+    opacity: 0;
+    visibility: hidden;
+    color: #8C020C;
+    text-decoration: underline;
+    text-decoration-color: #8C020C;
+}
+
+.lawyer-profile:hover .contact-info{
+    /* Could Implement Emails? */
+}
+
+.lawyer-profile:hover .portrait{
+    transform: scale(1.05);
+}
+
+.image-title{
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.team-intro{
+    max-width: 600px;
+    margin: 15px auto;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+.why-choose-us {
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 40px 0; /* Top and bottom padding */
+    text-align: center; /* Center-align text */
+}
+
+.why-choose-us h2 {
+    color: #333;
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.why-choose-us p {
+    color: #555;
+    margin-bottom: 20px; /* Space above the list */
+}
+
+.why-choose-us ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0;
+}
+
+.why-choose-us li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+
+
+.lawyer-page{
+    background-color: #f5f5f5;
+}
+
+.lawyer-name{
+    color: #333;
+    margin-left: 15px;
+    font-size: 2.5rem;
+}
+
+.lawyer-portrait{
+    margin-left: 15px;
+    max-width: 300px;
+    height: auto;
+}
+
+.contact-details p {
+    color: #555;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.profile-section{
+    margin-top: 20px;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+.profile-section h2{
+    color: #8C020C;
+    font-size: 1.8rem;
+}
+
+.profile-section ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-section li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.profile-section li::before{
+    content: "-";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.card{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.stretched-link {
+    text-decoration: none;
+    color: #8C020C;
+    font-weight: bold;
+}
+
+.stretched-link:hover{
+    color: #8C020C;
+}
+
+a.stretched-link{
+    position: relative;
+}
+a.stretched-link::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #8C020C;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+a.stretched-link:hover::before{
+    visibility: visible;
+    width: 100%;
+}
+
+.article-page{
+    max-width: 800px;
+    margin: auto;
+}
+
+.article-title{
+    margin-bottom: 30px;
+    color: #333; 
+}
+
+.article-content {
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.article-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.article-content li {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.terms-of-engagement{
+    max-width: 800px;
+    margin: auto;
+}
+
+.terms-of-engagement h1{
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.terms-of-engagement-content {
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.terms-of-engagement-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.terms-of-engagement-content h2 {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.terms-of-engagement-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.terms-of-engagement-content li {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.terms-of-engagement-content li::before{
+    content: "-";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.contact-us {
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-us-content{
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.contact-us h1{
+    margin-bottom: 30px;
+    color: #333;
+}
+
+
+.contact-us-content ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.contact-us li {
+    color: #555;
+    font-size: 1rem;
+    position: relative;
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .divider, .about-us {
+        padding: 30px 10px; /* Reduced padding on very small screens */
+    }
+    .inner-box, .about-us-box {
+        padding: 15px; /* Adjusting inner padding */
+    }
+
+    .about-us-box .text-container{
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .portrait{
+        padding: 10px;
+        max-width: 200px;
+        height: auto;
+    }
+}
+
+@font-face {
+    font-family: "TradeGothic";
+    src: url(assets\fonts\TradeGothic.ttf) format('truetype');
+}
