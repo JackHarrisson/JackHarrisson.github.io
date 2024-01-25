@@ -114,8 +114,8 @@ a.nav-link:hover::before{
 .carousel-content .text-box {
     max-width: 600px; /* Adjust the width as needed */
     margin: auto; /* This centers the box in the carousel item */
-    padding: 20px; /* Adds some padding inside the box */
     border-radius: 10px; /* Optional: for rounded corners */
+    text-align: center;
 }
 
 .icon-container{
