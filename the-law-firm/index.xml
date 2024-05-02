@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Law Firm on Keesing McLeod</title>
+    <link>http://localhost:1313/the-law-firm/</link>
+    <description>Recent content in The Law Firm on Keesing McLeod</description>
+    <generator>Hugo 0.125.1</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/the-law-firm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ben Davie</title>
+      <link>http://localhost:1313/the-law-firm/ben-davie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-law-firm/ben-davie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Don Battah</title>
+      <link>http://localhost:1313/the-law-firm/don-battah/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-law-firm/don-battah/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jamie Steele</title>
+      <link>http://localhost:1313/the-law-firm/jamie-steele/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-law-firm/jamie-steele/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>John Comerford</title>
+      <link>http://localhost:1313/the-law-firm/john-comerford/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-law-firm/john-comerford/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Peter McLeod</title>
+      <link>http://localhost:1313/the-law-firm/peter-mcleod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-law-firm/peter-mcleod/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

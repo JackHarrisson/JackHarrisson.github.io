@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Practices on Keesing McLeod</title>
+    <link>http://localhost:1313/practice/</link>
+    <description>Recent content in Practices on Keesing McLeod</description>
+    <generator>Hugo 0.125.1</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/practice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Property Sales and Acquisitions</title>
+      <link>http://localhost:1313/practice/property-sales-and-acquisitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/practice/property-sales-and-acquisitions/</guid>
+      <description>At Keesing McLeod, we expertly guide you through buying, selling, and transferring property ownership. Whether you are a first-time homebuyer, a seasoned investor, or a business expanding its footprint, we ensure that every transaction aligns with your strategic goals. Our comprehensive services include contract management, strategic negotiation, and thorough due diligence, all aimed at a smooth and efficient transaction.</description>
+    </item>
+  </channel>
+</rss>
